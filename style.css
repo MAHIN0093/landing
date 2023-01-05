@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction:column;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-between; 
+    text-align:center;
+    
+}
+.header .h{
+    margin-top: 10px;
+    color: aquamarine;
+}
+.siders{
+    display: flex;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:red;
+}
+.one{
+    display: flex;
+    flex-wrap:nowrap;
+}
+.left1{
+    flex:1
+    
+}
+.left1 header{
+    text-align:center;
+}
+.writing{
+    margin: 40px 100px 40px 40px;
+    text-align:center;
+}
+.right1{
+    flex: 2;
+}
+img{
+    width: 330px;
+    height: 220px;
+}
