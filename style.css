@@ -47,3 +47,20 @@ img{
     width: 330px;
     height: 220px;
 }
+.two{
+    display: flex;
+    flex-direction: column;
+}
+.bars{
+    display: flex;
+    gap: 20px;
+}
+.two>header{
+    text-align: center;
+}
+.box{
+    border-radius: 30px;
+    border: 2px solid salmon;
+    height: 80px;
+    background-color: rebeccapurple;
+}
